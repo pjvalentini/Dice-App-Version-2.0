@@ -1,0 +1,43 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.dice-face {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/dice-sprite.png);
+  background-repeat: no-repeat;
+  background-size: 796px;
+  background-position: -24px;  
+}
+
+.rollValue {
+  font-size: 70px;
+  padding: 30px;
+  display: inline-block;
+}
+
+[data-face = "1"] {
+  background-position: -24px;  
+}
+
+[data-face = "2"] {
+  background-position: -153px;
+}
+
+[data-face = "3"] {
+  background-position: -283px;
+}
+
+[data-face = "4"]{
+  background-position: -413px;
+}
+
+[data-face = "5"] {
+  background-position: -543px;
+}
+
+[data-face = "6"]{
+  background-position: -673px;
+}
