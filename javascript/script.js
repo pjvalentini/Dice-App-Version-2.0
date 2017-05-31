@@ -105,7 +105,6 @@ function animate(final) {
         times--;
 
     }, speed);
-
 }
 
 // when the user clicks on "img" (onclick event), execute this anonymous function
