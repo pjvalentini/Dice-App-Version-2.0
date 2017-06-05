@@ -1,5 +1,7 @@
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Futura", sans-serif;
+  text-align: center;
+  background-color: white;
 }
 
 .dice-face {
@@ -9,17 +11,24 @@ body {
   background-image: url(../img/dice-sprite.png);
   background-repeat: no-repeat;
   background-size: 796px;
-  background-position: -24px;  
+  background-position: -24px;
 }
 
 .rollValue {
   font-size: 70px;
   padding: 30px;
   display: inline-block;
+  font-family: "Futura", sans-serif;
+}
+
+.dice {
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 2px;
 }
 
 [data-face = "1"] {
-  background-position: -24px;  
+  background-position: -24px;
 }
 
 [data-face = "2"] {
