@@ -4,6 +4,20 @@ body {
   background-color: white;
 }
 
+.myHeader {
+  margin-top: 0px;
+  font-size: 75px;
+  box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.4);
+  height: 113px;
+  width: 100%;
+  background-color: chartreuse;
+  border-radius: 14px
+}
+
+.myH2 {
+  text-decoration: underline;
+}
+
 .dice-face {
   display: inline-block;
   width: 100px;
@@ -19,6 +33,11 @@ body {
   padding: 30px;
   display: inline-block;
   font-family: "Futura", sans-serif;
+  text-shadow:
+		-1px -1px 0 #03ff00,
+		1px -1px 0 #03ff00,
+		-1px 1px 0 #03ff00,
+		1px 1px 0 #03ff00;
 }
 
 .dice {
