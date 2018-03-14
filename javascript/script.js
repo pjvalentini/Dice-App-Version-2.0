@@ -110,8 +110,8 @@ img.onclick = () => {
 	animate(function() {
 				// what does the "parseInt" function do?
 				// https://www.w3schools.com/jsref/jsref_parseint.asp
-		var result = parseInt(dice1.getAttribute('data-face')) +
-								 parseInt(dice2.getAttribute('data-face'));
+		var result = parseInt(dice1.getAttribute('data-face')) +  // eslint-disable-line
+								 parseInt(dice2.getAttribute('data-face'));		// eslint-disable-line
 		rollValue.innerText = result;
 	});
 };
